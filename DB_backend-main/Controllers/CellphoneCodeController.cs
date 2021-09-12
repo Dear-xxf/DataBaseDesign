@@ -37,8 +37,8 @@ namespace LvDao.Controllers
                  * CAM密匙查询: https://console.cloud.tencent.com/cam/capi*/
                 Credential cred = new()
                 {
-                    SecretId = "AKIDqVv72g3f5NSItMZeXUEqGSO4VhdR0NYT",
-                    SecretKey = "kESRAJDqCI7euud5GBpCxRfbGiupTpvk"
+                    SecretId = "***********************************",
+                    SecretKey = "********************************"
                 };
                 
                 /* 非必要步骤:
@@ -81,7 +81,7 @@ namespace LvDao.Controllers
                      * 短信控制台: https://console.cloud.tencent.com/sms/smslist
                      * sms helper: https://cloud.tencent.com/document/product/382/3773 */
 
-                    SmsSdkAppid = "1400556751",
+                    SmsSdkAppid = "**************",
                     /* 短信签名内容: 使用 UTF-8 编码，必须填写已审核通过的签名，签名信息可登录 [短信控制台] 查看 */
                     Sign = "旅行之道",
                     /* 短信码号扩展号: 默认未开通，如需开通请联系 [sms helper] */
@@ -94,7 +94,7 @@ namespace LvDao.Controllers
                      * 示例如：+8613711112222， 其中前面有一个+号 ，86为国家码，13711112222为手机号，最多不要超过200个手机号*/
                     PhoneNumberSet = new string[] { "+" + phone },
                     /* 模板 ID: 必须填写已审核通过的模板 ID。模板ID可登录 [短信控制台] 查看 */
-                    TemplateID = "1064468"
+                    TemplateID = "********"
                 };
                 /* 模板参数: 若无模板参数，则设置为空*/
                 Random random = new();
